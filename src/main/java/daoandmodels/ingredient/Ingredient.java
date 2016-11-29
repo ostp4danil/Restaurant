@@ -1,4 +1,4 @@
-package ingredient;
+package daoandmodels.ingredient;
 
 /**
  * Created by Danil-MAC on 11/29/16.

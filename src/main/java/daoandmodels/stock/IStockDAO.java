@@ -1,4 +1,4 @@
-package stock;
+package daoandmodels.stock;
 
 import java.util.List;
 

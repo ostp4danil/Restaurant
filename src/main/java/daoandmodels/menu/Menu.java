@@ -1,6 +1,6 @@
-package menu;
+package daoandmodels.menu;
 
-import dish.Dish;
+import daoandmodels.dish.Dish;
 
 import java.util.List;
 

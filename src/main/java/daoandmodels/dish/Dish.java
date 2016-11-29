@@ -1,6 +1,6 @@
-package dish;
+package daoandmodels.dish;
 
-import ingredient.Ingredient;
+import daoandmodels.ingredient.Ingredient;
 
 import java.util.List;
 

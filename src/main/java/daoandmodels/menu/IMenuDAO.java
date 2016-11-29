@@ -1,4 +1,4 @@
-package menu;
+package daoandmodels.menu;
 
 import java.util.List;
 

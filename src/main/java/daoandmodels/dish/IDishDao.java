@@ -1,4 +1,4 @@
-package dish;
+package daoandmodels.dish;
 
 import java.util.List;
 

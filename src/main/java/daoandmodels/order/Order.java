@@ -1,7 +1,7 @@
-package order;
+package daoandmodels.order;
 
 
-import employee.Employee;
+import daoandmodels.employee.Employee;
 import sun.util.calendar.BaseCalendar.Date;
 
 /**

@@ -1,6 +1,6 @@
-package order;
+package daoandmodels.order;
 
-import dao.DatabaseDAO;
+import daoandmodels.dao.DatabaseDAO;
 
 /**
  * Created by Danil-MAC on 11/28/16.

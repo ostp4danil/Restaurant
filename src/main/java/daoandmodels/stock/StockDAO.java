@@ -1,6 +1,6 @@
-package stock;
+package daoandmodels.stock;
 
-import dao.DatabaseDAO;
+import daoandmodels.dao.DatabaseDAO;
 
 /**
  * Created by Danil-MAC on 11/28/16.
