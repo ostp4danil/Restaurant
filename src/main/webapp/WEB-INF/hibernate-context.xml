@@ -14,7 +14,9 @@
               <property name="acquireIncrement" value="1"/>
        </bean>
 
+
+
        <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-              <property name="location" value="classpath:jdbc.properties"/>
+              <property name="location" value="classpath:src/main/webapp/WEB-INF/jdbc.properties/WEB-INF/jdbc.properties"/>
        </bean>
 </beans>
