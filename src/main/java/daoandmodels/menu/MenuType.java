@@ -1,4 +1,4 @@
-package menu;
+package daoandmodels.menu;
 
 /**
  * Created by Danil-MAC on 11/29/16.

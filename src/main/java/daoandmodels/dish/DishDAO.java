@@ -1,6 +1,6 @@
-package dish;
+package daoandmodels.dish;
 
-import dao.DatabaseDAO;
+import daoandmodels.dao.DatabaseDAO;
 
 /**
  * Created by mokujin on 29.11.16.

@@ -1,4 +1,4 @@
-package employee;
+package daoandmodels.employee;
 
 import java.util.List;
 

@@ -1,7 +1,6 @@
-package order;
+package daoandmodels.order;
 
-import employee.Waiter;
-import sun.util.calendar.BaseCalendar;
+import daoandmodels.employee.Waiter;
 import sun.util.calendar.BaseCalendar.Date;
 
 import java.util.List;
@@ -22,5 +21,13 @@ public class OrderHistory {
 
     public List<Order> getByTableNumber(int tableNumber){
         return null;
+    }
+
+    public List<Order> getOrderList() {
+        return orderList;
+    }
+
+    public void setOrderList(List<Order> orderList) {
+        this.orderList = orderList;
     }
 }
