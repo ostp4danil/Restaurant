@@ -30,10 +30,6 @@ public class Menu {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public MenuType getType() {
         return type;
     }
