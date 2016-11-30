@@ -1,5 +1,6 @@
-package daoandmodels.order;
+package daoandmodels.dao.order;
 
+import models.order.Order;
 import org.hibernate.SessionFactory;
 
 import java.util.List;

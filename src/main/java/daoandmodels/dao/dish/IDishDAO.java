@@ -1,5 +1,6 @@
-package daoandmodels.dish;
+package daoandmodels.dao.dish;
 
+import models.dish.Dish;
 import org.hibernate.SessionFactory;
 
 import java.util.List;

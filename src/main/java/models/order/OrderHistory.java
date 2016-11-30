@@ -1,6 +1,6 @@
-package daoandmodels.order;
+package models.order;
 
-import daoandmodels.employee.Waiter;
+import models.employee.Waiter;
 import sun.util.calendar.BaseCalendar.Date;
 
 import java.util.List;

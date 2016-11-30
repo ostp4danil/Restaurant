@@ -1,5 +1,6 @@
-package daoandmodels.menu;
+package daoandmodels.dao.menu;
 
+import models.menu.Menu;
 import org.hibernate.SessionFactory;
 
 import java.util.List;

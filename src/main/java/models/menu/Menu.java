@@ -1,6 +1,6 @@
-package daoandmodels.menu;
+package models.menu;
 
-import daoandmodels.dish.Dish;
+import models.dish.Dish;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;

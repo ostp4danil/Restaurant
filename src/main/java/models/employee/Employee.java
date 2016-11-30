@@ -1,4 +1,4 @@
-package daoandmodels.employee;
+package models.employee;
 
 import org.hibernate.annotations.GenericGenerator;
 

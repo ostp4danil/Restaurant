@@ -1,5 +1,6 @@
-package daoandmodels.employee;
+package daoandmodels.dao.employee;
 
+import models.employee.Employee;
 import org.hibernate.SessionFactory;
 
 import java.util.List;

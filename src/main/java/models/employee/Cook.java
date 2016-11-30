@@ -1,6 +1,6 @@
-package daoandmodels.employee;
+package models.employee;
 
-import daoandmodels.dish.Dish;
+import models.dish.Dish;
 
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;

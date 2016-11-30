@@ -1,9 +1,7 @@
-package daoandmodels.dish;
+package models.dish;
 
-import daoandmodels.ingredient.Ingredient;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
-import java.util.List;
 import java.util.Map;
 
 /**

@@ -1,4 +1,4 @@
-package daoandmodels.ingredient;
+package models.ingredient;
 
 import org.hibernate.annotations.GenericGenerator;
 
