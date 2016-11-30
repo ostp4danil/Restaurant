@@ -1,12 +1,23 @@
 package daoandmodels.employee;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
+
 /**
  * Created by Danil-MAC on 11/28/16.
  */
-
+@Entity
+@Table(name = "Employee")
 public class Employee {
 
+    @Id
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy = "increment")
+    @Column(name = "e_ID")
     private long id;
+
+    @Column(name = "e_name")
     private String name;
 
     public long getId() {
