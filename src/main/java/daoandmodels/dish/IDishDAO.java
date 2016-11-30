@@ -1,5 +1,9 @@
 package daoandmodels.dish;
 
+<<<<<<< HEAD
+=======
+import javax.persistence.Entity;
+>>>>>>> Dania
 import java.io.Serializable;
 import java.util.List;
 
