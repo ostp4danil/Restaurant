@@ -13,4 +13,36 @@ public class Order {
     private Employee employee;
     private int tableNumber;
 
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public Employee getEmployee() {
+        return employee;
+    }
+
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
+    }
+
+    public int getTableNumber() {
+        return tableNumber;
+    }
+
+    public void setTableNumber(int tableNumber) {
+        this.tableNumber = tableNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "date=" + date +
+                ", employee=" + employee +
+                ", tableNumber=" + tableNumber +
+                '}';
+    }
 }
