@@ -1,20 +1,44 @@
 package daoandmodels.stock;
 
-<<<<<<< HEAD
-=======
-import ingredient.Ingredient;
 
+import daoandmodels.ingredient.Ingredient;
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
+import javax.persistence.criteria.CriteriaBuilder;
 import java.util.Map;
 
->>>>>>> 7281354155f1b85ade6d87ded7847987c942f281
-/**
- * Created by Danil-MAC on 11/28/16.
- */
+@Entity
+@Table(name = "Stock")
 public class Stock {
-<<<<<<< HEAD
-}
-=======
-    private Map<Ingredient,Integer> availableIngredients;
 
+    @Id
+    @OneToOne
+    @JoinColumn(name="i_ID", unique=true, nullable=false)
+    private Ingredient ingredient;
+
+    @Column(name = "avaliable")
+    private int avaliable;
+
+    public Ingredient getIngredient() {
+        return ingredient;
+    }
+
+    public void setIngredient(Ingredient ingredient) {
+        this.ingredient = ingredient;
+    }
+
+    public int getAvaliable() {
+        return avaliable;
+    }
+
+    public void setAvaliable(int avaliable) {
+        this.avaliable = avaliable;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
->>>>>>> 7281354155f1b85ade6d87ded7847987c942f281
+

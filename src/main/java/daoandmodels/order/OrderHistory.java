@@ -22,4 +22,12 @@ public class OrderHistory {
     public List<Order> getByTableNumber(int tableNumber){
         return null;
     }
+
+    public List<Order> getOrderList() {
+        return orderList;
+    }
+
+    public void setOrderList(List<Order> orderList) {
+        this.orderList = orderList;
+    }
 }
