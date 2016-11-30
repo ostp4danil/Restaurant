@@ -1,6 +1,6 @@
-package daoandmodels.dao.dish;
+package dao.dish;
 
-import daoandmodels.dao.DatabaseDAO;
+import dao.DatabaseDAO;
 import models.dish.Dish;
 
 /**

@@ -1,4 +1,4 @@
-package daoandmodels.dao.menu;
+package dao.menu;
 
 import models.menu.Menu;
 import org.hibernate.SessionFactory;

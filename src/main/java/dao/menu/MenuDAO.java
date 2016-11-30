@@ -1,6 +1,6 @@
-package daoandmodels.dao.menu;
+package dao.menu;
 
-import daoandmodels.dao.DatabaseDAO;
+import dao.DatabaseDAO;
 import models.menu.Menu;
 
 /**

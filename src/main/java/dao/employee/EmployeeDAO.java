@@ -1,6 +1,6 @@
-package daoandmodels.dao.employee;
+package dao.employee;
 
-import daoandmodels.dao.DatabaseDAO;
+import dao.DatabaseDAO;
 import models.employee.Employee;
 
 /**

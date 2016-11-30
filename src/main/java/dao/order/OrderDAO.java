@@ -1,6 +1,6 @@
-package daoandmodels.dao.order;
+package dao.order;
 
-import daoandmodels.dao.DatabaseDAO;
+import dao.DatabaseDAO;
 import models.order.Order;
 
 /**

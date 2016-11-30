@@ -1,4 +1,4 @@
-package daoandmodels.dao.employee;
+package dao.employee;
 
 import models.employee.Employee;
 import org.hibernate.SessionFactory;

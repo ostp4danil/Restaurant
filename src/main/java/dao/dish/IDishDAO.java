@@ -1,4 +1,4 @@
-package daoandmodels.dao.dish;
+package dao.dish;
 
 import models.dish.Dish;
 import org.hibernate.SessionFactory;

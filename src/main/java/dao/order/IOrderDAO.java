@@ -1,4 +1,4 @@
-package daoandmodels.dao.order;
+package dao.order;
 
 import models.order.Order;
 import org.hibernate.SessionFactory;
