@@ -64,10 +64,6 @@ public class Dish {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public Map<String, Dish> getIngredientsMap() {
         return ingredientsMap;
     }

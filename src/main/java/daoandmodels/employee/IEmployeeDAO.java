@@ -34,7 +34,7 @@ public class IEmployeeDAO implements EmployeeDAO {
 
     @Override
     public void edit(Employee employee) {
-        Employee existingEmployee = (Employee) sessionFactory.getCurrentSession().get(Employee.class, employee.getId);
+        Employee existingEmployee = (Employee) sessionFactory.getCurrentSession().get(Employee.class, employee.getId());
 
         existingEmployee.setName(employee.getName());
 

@@ -31,7 +31,7 @@ public class IOrderDAO implements OrderDAO {
         Order existingOrder = (Order) sessionFactory.getCurrentSession().get(Order.class, order.getId());
 
         existingOrder.setDate(order.getDate());
-        existingOrder.setEmployee(order.getEmployee());
+        existingOrder.setWaiter(order.getWaiter());
         existingOrder.setTableNumber(order.getTableNumber());
 
         sessionFactory.getCurrentSession().save(existingOrder);
